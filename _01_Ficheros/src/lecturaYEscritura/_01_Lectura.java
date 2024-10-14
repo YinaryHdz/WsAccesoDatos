@@ -2,7 +2,7 @@ package lecturaYEscritura;
 
 import java.io.IOException;
 
-public class Lectura_01 {
+public class _01_Lectura {
 
 	public static void main(String[] args) {
 		int caracter = 0;

@@ -5,14 +5,14 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Escritura_04 {
+public class _04_Escritura {
 
 	public static void main(String[] args) {
 		File archivo = new File("C:\\dir1\\f5.txt");
 		Scanner sc  =new Scanner(System.in);
 		try {
 			//Con true se evita eliminar las lineas del fichero en caso de escribir
-			//nuevas lineas 
+			//nuevas lineas       
 			FileWriter escritor  = new FileWriter(archivo, true);
 			String linea = "";
 			while(true) {
