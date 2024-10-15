@@ -21,11 +21,37 @@ public class _02_EjercicioLecturaYEscritura {
 		
 		try {
 			FileReader fr = new FileReader(archivo);
+			StringBuilder lineaActual = new StringBuilder();
 			int caracter = 0;
+			int contador = 0;
 			while((caracter = fr.read()) != -1 ) {
-	
+				// Si se encuentra un salto de línea, se considera que se ha leído una línea completa
+                if (caracter == '\n') {
+                    // Mostrar la línea actual si el contador es menor que n
+                    if (contador < n) {
+                        System.out.println(lineaActual.toString());
+                        contador++;
+                    } else {
+                        break; // Salir si ya se han mostrado n líneas
+                    }
+                    lineaActual.setLength(0); // Reiniciar para la siguiente línea
+                } else {
+                    lineaActual.append((char) caracter); // Agregar carácter a la línea actual
+                }
+            }
+
+            // Mostrar la última línea si no termina con un salto de línea
+            if (lineaActual.length() > 0 && contador < n) {
+                System.out.println(lineaActual.toString());
+                contador++;
+            }
+            if (contador < n) {
+                System.out.println("El archivo tiene solo " + contador + " líneas.");
+            }
+
+            fr.close(); 
                 
-			}
+			
 
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
