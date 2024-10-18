@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class _06_EjercicioLecturaYEscritura {
+public class _06_EjercicioLecturaYEscritura          {
 
     public static void main(String[] args) {
         // Archivo de entrada y salida
