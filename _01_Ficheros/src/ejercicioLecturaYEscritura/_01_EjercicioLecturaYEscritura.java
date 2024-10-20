@@ -18,6 +18,7 @@ public class _01_EjercicioLecturaYEscritura {
 		try {
 			FileReader fr = new FileReader(archivo);
 			FileWriter fw = new FileWriter("C:\\dir1\\invertido.txt");
+			
 			//String builder es una clase para manipular cadenas de texto
 			//tiene metodos utiles que permiten hacer todo tipo de modificaciones
 			//en una cadena de texto. Evita la creacion de multiples objetos
