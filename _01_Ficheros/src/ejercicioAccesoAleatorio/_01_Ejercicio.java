@@ -23,7 +23,7 @@ public class _01_Ejercicio {
 		Estudiantes.add("Jose");
 		int [] calificaciones = {8,5,10};
 		
-		escribirCalificaciones(Estudiantes, calificaciones, "C:\\dir1\\\\estudiantes.dat");
+		escribirCalificaciones(Estudiantes, calificaciones, "C:\\dir1\\estudiantes.dat");
 
 	}
 	
