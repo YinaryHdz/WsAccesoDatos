@@ -16,7 +16,7 @@ import org.xml.sax.SAXException;
 public class leerXMLDOMDesconocido {
 
 	public static void main(String[] args) throws SAXException, IOException, ParserConfigurationException {
-File fichero = new File("C:/dir1/concesionario.xml");
+		File fichero = new File("C:/dir1/concesionario.xml");
 		
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
