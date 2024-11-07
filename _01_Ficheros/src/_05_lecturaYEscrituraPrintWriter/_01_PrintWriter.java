@@ -19,6 +19,7 @@ public class _01_PrintWriter {
 			int edad = sc.nextInt();
 			System.out.print("Salario: ");
 			double salario  = sc.nextDouble();
+			//writer.println escribe líneas en el archivo, cada una con un dato o etiqueta.
 			writer.println("Datos del usuario: ");
 			writer.println("Nombre: " +nombre);
 			writer.println("Edad: " +edad);
