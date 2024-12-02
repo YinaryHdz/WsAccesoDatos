@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Almacen>
+    <Producto Codigo="1">
+        <Descripcion>Producto A</Descripcion>
+        <Origen>
+            <Nombre>Empresa A</Nombre>
+            <Telefono>123456789</Telefono>
+        </Origen>
+        <Existencias>100</Existencias>
+        <Precio>25.50</Precio>
+    </Producto>
+    <Producto Codigo="2">
+        <Descripcion>Producto B</Descripcion>
+        <Origen>
+            <Nombre>Empresa B</Nombre>
+            <Telefono>987654321</Telefono>
+        </Origen>
+        <Existencias>50</Existencias>
+        <Precio>45.75</Precio>
+    </Producto>
+</Almacen>
