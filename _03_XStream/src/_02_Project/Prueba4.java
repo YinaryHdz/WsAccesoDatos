@@ -19,7 +19,7 @@ public class Prueba4 {
         for(Iterator it = lista.iterator() ; it.hasNext();){
             Autor autor = (Autor) it.next();
             /*
-            Con esto elimino a un elemento especifico de la lista  
+            Con esto elimino a un elemento especifico de la lista               
             if(autor.getNombre().equals("Quevedo")){
                 System.out.println("Borrando Quevedo");
                 it.remove();
