@@ -1,4 +1,4 @@
-package convertidorPersonalizadoCompleto;
+package _04_convertidorPersonalizadoCompleto;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;

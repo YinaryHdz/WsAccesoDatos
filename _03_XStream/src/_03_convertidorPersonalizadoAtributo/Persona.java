@@ -1,6 +1,4 @@
-package convertidorPersonalizadoCompleto;
-import convertidorPersonalizadoAtributo.Telefono;
-
+package _03_convertidorPersonalizadoAtributo;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
@@ -13,7 +11,28 @@ public class Persona {
     private String nombre;
     private String apellido;
     private Telefono telefono;
+    private boolean mayorEdad;
+    private float peso;
+    private Date fecha;
 
+    public Date getFecha() {
+        return fecha;
+    }
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
+    }
+    public float getPeso() {
+        return peso;
+    }
+    public void setPeso(float peso) {
+        this.peso = peso;
+    }
+    public boolean isMayorEdad() {
+        return mayorEdad;
+    }
+    public void setMayorEdad(boolean mayorEdad) {
+        this.mayorEdad = mayorEdad;
+    }
     public String getNombre() {
         return nombre;
     }
@@ -34,8 +53,11 @@ public class Persona {
     }
     @Override
     public String toString() {
+        DateFormat formatter = DateFormat.getDateInstance(DateFormat.FULL,
+                new Locale("es"));
         return "Persona [nombre=" + nombre + ", apellido=" + apellido
-                + ", telefono=" + telefono.toString() + "]";
+                + ", telefono=" + telefono.toString() + ", mayorEdad=" + mayorEdad
+                + ", peso=" + peso + ", fecha=" + formatter.format(fecha) + "]";
     }
 }
 

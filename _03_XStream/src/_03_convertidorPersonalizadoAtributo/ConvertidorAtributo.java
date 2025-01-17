@@ -1,4 +1,4 @@
-package convertidorPersonalizadoAtributo;
+package _03_convertidorPersonalizadoAtributo;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.converters.basic.BooleanConverter;

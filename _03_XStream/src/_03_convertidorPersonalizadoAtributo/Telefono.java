@@ -1,13 +1,16 @@
-package convertidorPersonalizadoCompleto;
+package _03_convertidorPersonalizadoAtributo;
 
 /**
  *  @descrition Clase que representa un numero de telefono
+ *	@author Laura
+ *  @date 29/4/2015
+ *  @version 1.0
+ *  @license GPLv3
  */
 
 public class Telefono {
     private int codigo;
     private int numero;
-
     public int getCodigo() {
         return codigo;
     }
@@ -24,5 +27,7 @@ public class Telefono {
     public String toString() {
         return "Telefono [codigo=" + codigo + ", numero=" + numero + "]";
     }
-}
 
+
+
+}

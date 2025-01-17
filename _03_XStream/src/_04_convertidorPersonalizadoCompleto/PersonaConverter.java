@@ -1,4 +1,4 @@
-package convertidorPersonalizadoCompleto;
+package _04_convertidorPersonalizadoCompleto;
 
 import com.thoughtworks.xstream.converters.Converter;
 import com.thoughtworks.xstream.converters.MarshallingContext;
